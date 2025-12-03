@@ -1,10 +1,10 @@
 function RecentOrder() {
   return (
     <section
-      className="basis-2/4 mt-12 me-4 p-4 rounded-xl h-100"
+      className="basis-2/4 p-8 rounded-xl h-100"
     >
       <span className="text-2xl">Recent Order: </span>
-      <table className="w-full border-collapse bg-white shadow-lg rounded overflow-hidden">
+      <table className="w-full border-collapse bg-white rounded overflow-hidden">
         {/* Table Header */}
         <thead>
           <tr className="bg-gray-100 border-b border-gray-300 text-left text-gray-700 uppercase text-sm">

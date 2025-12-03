@@ -7,7 +7,7 @@ function Logo() {
       <span>
         <ChartNoAxesGantt size={40} />
       </span>
-      <span className="text-3xl ps-2.5">Foxcon</span>
+      <span className="hidden text-3xl ps-2.5 md:block">Foxcon</span>
     </section>
   );
 }

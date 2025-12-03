@@ -14,13 +14,13 @@ function Menu() {
   return (
     <section className="flex flex-col space-y-2 p-6 mt-4">
       <MenuItem icon={LayoutDashboard} text={"Dashboard"} />
-      <MenuItem icon={ChartNoAxesColumn} text={"Analytics"} />
-      <MenuItem icon={BrickWallShield} text={"Invoice"} />
-      <MenuItem icon={CalendarCheck} text={"Schedule"} />
-      <MenuItem icon={CalendarDays} text={"Calender"} />
+      <MenuItem icon={ChartNoAxesColumn} text={"Analytics"} location={'/analysis'}/>
+      <MenuItem icon={BrickWallShield} text={"Invoice"} location={'/invoice'}/>
+      <MenuItem icon={CalendarCheck} text={"Schedule"} location={'/schedule'}/>
+      <MenuItem icon={CalendarDays} text={"Calender"} location={'/calender'}/>
       <MenuItem icon={SendHorizontal} text={"Message"} />
       <MenuItem icon={Bell} text={"Notification"} />
-      <MenuItem icon={Settings} text={"Setting"} />
+      <MenuItem icon={Settings} text={"Setting"} location={'/setting'}/>
     </section>
   );
 }

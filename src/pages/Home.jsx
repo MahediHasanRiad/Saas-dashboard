@@ -18,15 +18,8 @@ function Home() {
 
       {/* 3rd section  */}
       <section className="flex mt-12">
-        <section>
-          
-          <RecentOrder />
-        </section>
-        <section>
-          
-          <TopSellingProduct />
-        </section>
-
+        <RecentOrder />
+        <TopSellingProduct />
       </section>
     </section>
   );
